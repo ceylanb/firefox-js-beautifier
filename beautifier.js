@@ -6,6 +6,7 @@ code.classList.add("javascript");
 pre.appendChild(code)
 var source_code = js_beautify(js_code);
 code.innerText = source_code;
+hljs.configure({useBR: true});
 hljs.highlightBlock(code);
 document.body.style.backgroundColor = window.getComputedStyle(code).backgroundColor
 
