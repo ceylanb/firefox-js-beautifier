@@ -12,8 +12,8 @@
 
   "content_scripts": [
     {
-      "matches": ["*://*/*.js", "*://*/*.js?*", "*://*/*"],
-      "css": ["assets/highlight/styles/monokai-sublime.css"],
+      "matches": ["*://*/*.js", "*://*/*.js?*"],
+      "css": ["assets/highlight/styles/atom-one-dark.css"],
       "js": ["assets/beautify.min.js" ,"assets/highlight/highlight.pack.js" ,  "beautifier.js"]
     }
   ]
